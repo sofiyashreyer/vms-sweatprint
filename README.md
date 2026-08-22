@@ -6,11 +6,11 @@ night sweats (NS) during sleep, submitted to *Menopause*.
 
 ## What's included
 
-- **`Analysis_Pipeline_Reorganized.R`** — the full analysis pipeline, in order:
+- **`Analysis_Pipeline_Reorganized.R`** - 
   1. Data import (raw EDA → 1-minute summaries)
   2. Preprocessing (sleep-window trimming, exclusions, rolling CV, unit conversion)
   3. Event detection, including the threshold combinations tested before
-     arriving at the final algorithm (all labeled with their parameters)
+     deciding on the final algorithm
   4. Validation against participant-marked events
   5. Event metric extraction (duration, AUC, time to peak, recovery time)
   6. Variable selection (correlation check)
@@ -24,11 +24,8 @@ night sweats (NS) during sleep, submitted to *Menopause*.
 
 ## What's NOT included
 
-No raw or de-identified participant data is included in this repository,
-consistent with the terms of participant consent and IRB approval. File paths
-in the scripts point to the original local directory structure and are shown
-for transparency only — they will not resolve outside the original analysis
-environment.
+No raw or de-identified participant data is included in this repository. File paths
+in the scripts point to the original local directory structure.
 
 ## Requirements
 
