@@ -1,17 +1,3 @@
-# =============================================================================
-# Nocturnal VMS Electrodermal Activity (EDA) Analysis Pipeline
-# -----------------------------------------------------------------------------
-# Reorganized for the public repo. Roughly follows how the analysis was run: 
-#import data, clean it up, figure out event detection, validate it,
-# pull metrics, then the actual clustering (fit -> drop the bad cluster ->
-# refit), and last, the stuff that didn't make the final cut but is worth
-# keeping around (rejected approaches, etc).
-#
-# Heads up: no raw or de-identified data lives in this repo. The file paths
-# below are the original local ones (kept for transparency about the folder
-# structure) - they won't resolve if you try to run this as-is.
-# =============================================================================
-
 
 ################################################################################
 # DATA IMPORT — raw EDA to 1-min summaries, attach REDCap start times
